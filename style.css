@@ -1,0 +1,145 @@
+body{
+ background-color: black;
+ margin-top: 0px;
+ margin-left:0px;
+ margin-right: 0px;
+}
+  .navbar
+
+{
+    display: flex;
+    justify-content: space-between;
+  }
+.navbar-left{
+
+font-family:ubuntu;
+    font-size:35px;
+   font-weight:bold; 
+   -webkit-text-fill-color:rgb(14, 102, 14);
+   padding-left: 70px;
+
+}
+.navbar-right
+{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+    -webkit-text-fill-color:white ;
+    
+    a:hover{
+        background-color:green;
+    }
+
+}
+.element{
+    padding:10px;
+   margin:10px;
+   font-family:ubuntu;
+    font-size:25px;
+   font-weight:bold;
+   text-decoration-color: white;
+   }
+   .home
+{
+  display:flex;
+   flex-direction:row;
+     align-items:center;
+justify-content:space-between;
+-webkit-text-fill-color:white ;
+}
+.home-left{
+    width:50vw;
+    text-align:right;
+   padding-left:100px;
+   }
+   .heading
+   {
+    font-family:ubuntu;
+    font-size:25px;
+   font-weight:bold;
+   -webkit-text-fill-color:rgb(14, 102, 14);
+   padding-left: 70px;
+   }
+   .image
+{ 
+  height:300px;
+padding-top:50px;
+padding-left: 200px;
+padding-right: 150px;
+border-radius:20%;
+}
+.skill
+{
+    padding: 50px;
+    text-align: center;
+    -webkit-text-fill-color:white ;
+}
+
+
+.sub-content{
+    display:flex;
+    flex-direction:row;
+}
+  .services-card
+  {
+    border:2px solid pink;
+    margin:20px;
+    margin-right: 20px;
+  padding:20px;font-family: "Montserrat", sans-serif;
+  font-size:15px;
+  -webkit-text-fill-color:white ;
+}
+  
+  
+  .projects{ 
+     text-align: center;
+     padding: 20px;
+     -webkit-text-fill-color:white;
+     font-size: 25px;
+    
+}
+  }
+  .info{
+    display: flex;
+    flex-direction: row;
+    -webkit-text-fill-color:rgb(14, 102, 14);
+   
+  }
+ 
+  .experience{
+    padding-left: 100px;
+    text-align: left;
+  }
+  .info-header{
+    display: flex;
+    padding-left: 20px;
+    text-align: left;
+    -webkit-text-fill-color:rgb(14, 102, 14);
+   
+  }
+  .head{
+    padding-left: 100px;
+  }
+  .contact{
+        text-align: center;
+        -webkit-text-fill-color:white ;
+}
+  
+  .img{
+    height: 50px;
+  }
+  .container { 
+    height: 200px;
+    position: relative;
+  }
+  
+  .center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    
+  }
